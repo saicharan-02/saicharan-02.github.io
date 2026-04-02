@@ -46,10 +46,10 @@ const projects = [
   },
   {
     client: "Gain",
-    tag: "Integration",
-    tagColor: "amber",
+    tag: "Healthcare",
+    tagColor: "emerald",
     summary:
-      "Scheduler-based batch integration to synchronize legacy system data with Salesforce.",
+      "Scheduler-based batch integration to synchronize healthcare legacy system data with Salesforce.",
     highlights: [
       "Designed and developed scheduler-based batch integration to synchronize data from legacy systems to Salesforce via API requests, automating manual data entry and reducing processing time.",
     ],
@@ -61,7 +61,7 @@ const tagColors = {
   indigo: "bg-indigo-500/10 text-indigo-300 border-indigo-500/30",
   cyan: "bg-cyan-500/10 text-cyan-300 border-cyan-500/30",
   purple: "bg-purple-500/10 text-purple-300 border-purple-500/30",
-  amber: "bg-amber-500/10 text-amber-300 border-amber-500/30",
+  emerald: "bg-emerald-500/10 text-emerald-300 border-emerald-500/30",
 };
 
 export default function Projects() {
