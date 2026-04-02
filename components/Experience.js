@@ -19,14 +19,6 @@ const experiences = [
       "Mentored and onboarded 4 new team members via knowledge-transfer sessions on API architecture, development standards, and support procedures.",
     ],
   },
-  {
-    company: "Gain",
-    location: "Project",
-    roles: [{ title: "MuleSoft Integration Developer", period: "Contract" }],
-    bullets: [
-      "Designed and developed scheduler-based batch integration to synchronize data from legacy systems to Salesforce via API requests, automating manual data entry and reducing processing time.",
-    ],
-  },
 ];
 
 export default function Experience() {

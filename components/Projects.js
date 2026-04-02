@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import { HiExternalLink } from "react-icons/hi";
 
 const projects = [
   {
@@ -45,12 +44,24 @@ const projects = [
     ],
     tech: ["RAML", "Salesforce", "PostgreSQL", "Batch Processing", "Watermarking", "HTTP Connector"],
   },
+  {
+    client: "Gain",
+    tag: "Integration",
+    tagColor: "amber",
+    summary:
+      "Scheduler-based batch integration to synchronize legacy system data with Salesforce.",
+    highlights: [
+      "Designed and developed scheduler-based batch integration to synchronize data from legacy systems to Salesforce via API requests, automating manual data entry and reducing processing time.",
+    ],
+    tech: ["Mule 4", "Salesforce", "Batch Processing", "Scheduler", "REST APIs"],
+  },
 ];
 
 const tagColors = {
   indigo: "bg-indigo-500/10 text-indigo-300 border-indigo-500/30",
   cyan: "bg-cyan-500/10 text-cyan-300 border-cyan-500/30",
   purple: "bg-purple-500/10 text-purple-300 border-purple-500/30",
+  amber: "bg-amber-500/10 text-amber-300 border-amber-500/30",
 };
 
 export default function Projects() {
