@@ -20,7 +20,7 @@ const experiences = [
     ],
   },
   {
-    company: "Gainwell Technologies",
+    company: "Gain",
     location: "Project",
     roles: [{ title: "MuleSoft Integration Developer", period: "Contract" }],
     bullets: [
