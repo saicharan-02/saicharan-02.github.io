@@ -19,8 +19,8 @@ const contactItems = [
   {
     icon: FaLinkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/sai-charan-hasnabad",
-    href: "https://www.linkedin.com/in/sai-charan-hasnabad",
+    value: "linkedin.com/in/thesaicharan",
+    href: "https://www.linkedin.com/in/thesaicharan/",
   },
 ];
 

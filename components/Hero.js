@@ -99,7 +99,7 @@ export default function Hero() {
             <FaEnvelope size={20} />
           </a>
           <a
-            href="https://www.linkedin.com/in/sai-charan-hasnabad"
+            href="https://www.linkedin.com/in/thesaicharan/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-indigo-400 transition-colors"
